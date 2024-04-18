@@ -1,0 +1,7 @@
+@import "../../consts/mixins.scss";
+
+.ticket {
+    width: 69%;
+    @include to-center_row();
+    @include block-design();
+}

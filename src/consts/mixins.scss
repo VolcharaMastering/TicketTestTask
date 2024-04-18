@@ -1,0 +1,32 @@
+@import "./consts.scss";
+
+@mixin to-center_row($align: center, $justify: center) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+}
+@mixin to-center_column($align: center, $justify: center) {
+  display: flex;
+  flex-direction: column;
+  align-items: $align;
+  justify-content: $justify;
+}
+@mixin block-design() {
+  background-color: $blocks-color;
+  border-radius: $borber-radius;
+  box-shadow: -1px -1px 3px 1px $shadow-color, 3px 3px 3px $shadow-color;
+  padding: 3%;
+}
+@mixin list-without-dots {
+  @include to-center_row();
+  list-style-type: none;
+}
+@mixin link-without-underline($color: $dark-text-color) {
+  text-decoration: none;
+  color: $color;
+}
+
+@mixin link-hover($opacity: 60%) {
+  cursor: pointer;
+  opacity: $opacity;
+}
