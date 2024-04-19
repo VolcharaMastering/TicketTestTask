@@ -7,9 +7,7 @@ function Ticket({ ticketData }) {
     <section className="ticket">
       <TicketLogAndPrice carrier={ticketData.carrier} />
       <TicketDateAndTime
-        departureTime={ticketData.departure_time}
-        arrivalTime={ticketData.arrival_time}
-        stops={ticketData.stops}
+       ticketData={ticketData} 
       />
     </section>
   );

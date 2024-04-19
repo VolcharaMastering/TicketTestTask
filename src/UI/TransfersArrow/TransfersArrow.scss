@@ -1,7 +1,7 @@
 @import "../../consts/mixins.scss";
 
 .transfers-arrow {
-    width: 150px;
+    width: 33%;
     @include to-center_column();
     .transfers-arrow__text {
         text-align: center;
