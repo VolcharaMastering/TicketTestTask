@@ -7,7 +7,6 @@ function Ticket() {
         <section className="ticket">
             <TicketLogAndPrice />
             <TicketDateAndTime />
-            <TicketLogAndPrice />
         </section>
     )
 }

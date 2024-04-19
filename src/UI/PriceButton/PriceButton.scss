@@ -1,0 +1,15 @@
+@import "../../consts/mixins.scss";
+
+.currency-button {
+    width: 150px;
+    height: 60px;
+    background-color: $button-price-color;
+    color: $text-color-light;
+    border-radius: $borber-radius;
+    transition: $transition;
+    @include to-center_column();
+}
+
+.currency-button:hover {
+    @include link-hover();
+}

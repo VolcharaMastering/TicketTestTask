@@ -1,0 +1,6 @@
+@import "../../consts/mixins.scss";
+
+.tickets-block {
+    width: 69%;
+    @include to-center_column();
+}
