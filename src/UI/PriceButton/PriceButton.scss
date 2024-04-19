@@ -8,6 +8,7 @@
     border-radius: $borber-radius;
     transition: $transition;
     @include to-center_column();
+    border: none;
 }
 
 .currency-button:hover {

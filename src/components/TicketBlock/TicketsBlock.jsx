@@ -9,7 +9,7 @@ const TicketsBlock = observer(() => {
   return (
     <section className="tickets-block">
       {ticketsToRender.map((ticket) => (
-        <Ticket ticket={ticket} key={ticket.id} />
+        <Ticket ticketData={ticket} key={ticket.id} />
       ))}
     </section>
   );

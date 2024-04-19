@@ -2,12 +2,12 @@ import TicketDateAndTime from "../TicketDateAndTime/TicketDateAndTime";
 import TicketLogAndPrice from "../TicketLogAndPrice/TicketLogAndPrice";
 import "./Ticket.scss";
 
-function Ticket() {
-    return (
-        <section className="ticket">
-            <TicketLogAndPrice />
-            <TicketDateAndTime />
-        </section>
-    )
+function Ticket({ ticketData }) {
+  return (
+    <section className="ticket">
+      <TicketLogAndPrice carrier={ticketData.carrier} />
+      <TicketDateAndTime />
+    </section>
+  );
 }
 export default Ticket;
