@@ -1,4 +1,8 @@
 @import "../../consts/mixins.scss";
 
 .ticket-date-and-time {
+  @include to-center_row($justify: space-around);
+  align-self: flex-start;
+  width: 65%;
+  margin-top: 20px;
 }

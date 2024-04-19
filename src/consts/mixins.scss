@@ -15,7 +15,6 @@
   background-color: $blocks-color;
   border-radius: $borber-radius;
   box-shadow: -1px -1px 3px 1px $shadow-color, 3px 3px 3px $shadow-color;
-  padding: 3%;
 }
 @mixin list-without-dots {
   @include to-center_row();

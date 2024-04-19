@@ -1,2 +1,7 @@
 @import "../../consts/mixins.scss";
 
+.flight-time {
+  color: $text-color-dark;
+  font-size: 40px;
+  font-weight: 300;
+}

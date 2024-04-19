@@ -6,7 +6,11 @@ function Ticket({ ticketData }) {
   return (
     <section className="ticket">
       <TicketLogAndPrice carrier={ticketData.carrier} />
-      <TicketDateAndTime />
+      <TicketDateAndTime
+        departureTime={ticketData.departure_time}
+        arrivalTime={ticketData.arrival_time}
+        stops={ticketData.stops}
+      />
     </section>
   );
 }

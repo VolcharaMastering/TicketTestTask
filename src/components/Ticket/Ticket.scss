@@ -4,4 +4,5 @@
     width: 100%;
     @include to-center_row($justify: space-between);
     @include block-design();
+    margin-bottom: 20px;
 }
