@@ -1,4 +1,24 @@
 @import "../../consts/mixins.scss";
 
 .currency-button {
+    width: 33%;
+    background-color: transparent;
+    border-color: $currency-color;
+    height: 50px;
+    transition:  $transition;
+}
+.currency-button:first-of-type {
+    border-top-left-radius: $borber-radius;
+    border-bottom-left-radius: $borber-radius;
+}
+.currency-button:last-of-type{
+    border-top-right-radius: $borber-radius;
+    border-bottom-right-radius: $borber-radius;
+}
+.currency-button:hover {
+    @include link-hover();
+    background-color: rgb(249, 245, 245);
+}
+.currency-button:focus {
+    background-color: $currency-color;
 }

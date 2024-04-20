@@ -9,7 +9,7 @@ const PriceButton = observer(() => {
     alert("You bought it!");
   };
   return (
-    <button className="currency-button" type="button" onClick={handleClick}>
+    <button className="price-button" type="button" onClick={handleClick}>
       <p>{labelsRu.buyRu}</p>
       <p>{`${labelsRu.forRu} ${price} ${currency}`}</p>
     </button>

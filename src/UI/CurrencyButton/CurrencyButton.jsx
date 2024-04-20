@@ -1,9 +1,9 @@
 import "./CurrencyButton.scss";
 
-function CurrencyButton() {
+function CurrencyButton({label}) {
     return (
-        <button>
-            
+        <button className="currency-button" type="button" >
+            {label}
         </button>
     )
 }

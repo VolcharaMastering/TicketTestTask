@@ -1,4 +1,11 @@
 @import "../../consts/mixins.scss";
 
 .currency-block {
+    width: 100%;
+    @include to-center_column($align: flex-start);
+    padding: 4%;
+    .currency-block__buttons{
+        @include to-center_row($justify: stretch);
+        width: 100%;
+    }
 }

@@ -1,6 +1,6 @@
 @import "../../consts/mixins.scss";
 
-.currency-button {
+.price-button {
     width: 150px;
     height: 60px;
     background-color: $button-price-color;
@@ -11,6 +11,6 @@
     border: none;
 }
 
-.currency-button:hover {
+.price-button:hover {
     @include link-hover();
 }
