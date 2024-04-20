@@ -2,7 +2,9 @@
   "labelsRu": {
     "currencyRu": "Валюта",
     "transfersRu": "Количество пересадок",
-    "byeRu": "Купить\nза",
+    "buyRu": "Купить",
+    "forRu": "за",
+    "only": "Только",
     "transfersAll": {
       "allRu": "Все",
       "Ru0": "Без пересадок",
