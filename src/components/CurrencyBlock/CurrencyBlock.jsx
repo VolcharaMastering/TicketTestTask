@@ -8,7 +8,7 @@ function CurrencyBlock() {
       <label className="filter-block__label">{labelsRu.currencyRu}</label>
       <div className="currency-block__buttons">
         <CurrencyButton label="RUB" />
-        <CurrencyButton label="USB" />
+        <CurrencyButton label="USD" />
         <CurrencyButton label="EUR" />
       </div>
     </div>

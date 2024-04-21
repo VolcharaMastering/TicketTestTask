@@ -19,6 +19,6 @@
     @include link-hover();
     background-color: rgb(249, 245, 245);
 }
-.currency-button:focus {
+.currency-button__active {
     background-color: $currency-color;
 }

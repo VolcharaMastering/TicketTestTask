@@ -5,10 +5,11 @@ import "./Ticket.scss";
 function Ticket({ ticketData }) {
   return (
     <section className="ticket">
-      <TicketLogAndPrice carrier={ticketData.carrier} />
-      <TicketDateAndTime
-       ticketData={ticketData} 
+      <TicketLogAndPrice
+        carrier={ticketData.carrier}
+        defaultPrice={ticketData.price}
       />
+      <TicketDateAndTime ticketData={ticketData} />
     </section>
   );
 }
