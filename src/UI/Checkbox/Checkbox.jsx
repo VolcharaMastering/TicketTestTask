@@ -22,6 +22,9 @@ const Checkbox = observer(({ label }) => {
       FilterStore.delFilters(stops);
     }
   };
+  const handleOnlySelect = () => {
+    FilterStore.setOnly(stops);
+  };
   return (
     <div className="checkbox">
       <input
@@ -40,7 +43,11 @@ const Checkbox = observer(({ label }) => {
       <label className="checkbox__label" htmlFor={label}>
         {label}
       </label>
-      <button className="checkbox__only-button" type="button">
+      <button
+        className="checkbox__only-button"
+        type="button"
+        onClick={handleOnlySelect}
+      >
         {labelsRu.only}
       </button>
     </div>

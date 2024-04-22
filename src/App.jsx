@@ -2,7 +2,7 @@ import { observer } from "mobx-react-lite";
 import "./App.scss";
 import FilterBlock from "./components/FilterBlock/FilterBlock";
 import logo from "./assets/main.png";
-import TicketsBlock from "./components/TicketBlock/TicketsBlock";
+import TicketsBlock from "./components/TicketsBlock/TicketsBlock";
 
 const App = observer(() => {
 
