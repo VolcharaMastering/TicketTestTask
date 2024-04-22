@@ -1,9 +1,9 @@
 @import "../../consts/mixins.scss";
 
 .ticket-log-and-price {
-    @include to-center_column();
-    width: 35%;
-    height: 100%;
-    border-right: $borders-default;
-    padding: 3%;
+  @include to-center_column();
+  width: 35%;
+  height: 100%;
+  border-right: $borders-default;
+  padding: 3%;
 }

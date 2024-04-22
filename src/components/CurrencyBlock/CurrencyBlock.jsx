@@ -1,6 +1,6 @@
 import "./CurrencyBlock.scss";
-import { labelsRu } from "../../content/labels";
 import CurrencyButton from "../../UI/CurrencyButton/CurrencyButton";
+import { labelsRu } from "../../content/labels";
 
 function CurrencyBlock() {
   return (

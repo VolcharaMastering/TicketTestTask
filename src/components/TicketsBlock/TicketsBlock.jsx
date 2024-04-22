@@ -1,16 +1,15 @@
+import { useState, useEffect } from "react";
 import { observer } from "mobx-react-lite";
 import "./TicketsBlock.scss";
-import { useState } from "react";
-import { tickets } from "../../content/tickets.json";
 import Ticket from "../Ticket/Ticket";
 import FilterStore from "../../stores/FilterStore";
-import { useEffect } from "react";
+import { tickets } from "../../content/tickets.json";
 
 const TicketsBlock = observer(() => {
   const [ticketsToRender, setTicketsToRender] = useState([]);
 
   useEffect(() => {
-    if(FilterStore.usedFilters.length === 0) {
+    if (FilterStore.usedFilters.length === 0) {
       setTicketsToRender(tickets);
       return;
     }

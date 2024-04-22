@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { observer } from "mobx-react-lite";
-import "./Checkbox.scss";
 import FilterStore from "../../stores/FilterStore";
+import "./Checkbox.scss";
 import { labelsRu } from "../../content/labels";
 
 const Checkbox = observer(({ label }) => {

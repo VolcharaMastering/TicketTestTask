@@ -10,7 +10,7 @@
     z-index: -1;
     opacity: 0;
   }
-  .checkbox__only-button{
+  .checkbox__only-button {
     all: unset;
     text-transform: uppercase;
     background: none;
@@ -56,7 +56,6 @@
   }
 }
 
-
 .checkbox:hover > .checkbox__only-button {
-    visibility: visible;
-  }
+  visibility: visible;
+}

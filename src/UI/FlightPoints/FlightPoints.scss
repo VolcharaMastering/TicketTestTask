@@ -9,7 +9,8 @@
     color: $text-color-gray;
     text-align: right;
   }
-  .flight-points__city:last-of-type, .flight-points__date:last-of-type {
+  .flight-points__city:last-of-type,
+  .flight-points__date:last-of-type {
     text-align: left;
   }
 }

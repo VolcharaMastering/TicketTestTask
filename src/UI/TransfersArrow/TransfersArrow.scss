@@ -1,13 +1,13 @@
 @import "../../consts/mixins.scss";
 
 .transfers-arrow {
-    width: 33%;
-    @include to-center_column();
-    .transfers-arrow__text {
-        text-align: center;
-        color: $text-color-gray;
-    }
-    .transfers-arrow__img {
-        width: 100%;
-    }
+  width: 33%;
+  @include to-center_column();
+  .transfers-arrow__text {
+    text-align: center;
+    color: $text-color-gray;
+  }
+  .transfers-arrow__img {
+    width: 100%;
+  }
 }

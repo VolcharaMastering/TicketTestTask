@@ -1,7 +1,7 @@
 import { observer } from "mobx-react-lite";
 import "./PriceButton.scss";
-import { labelsRu } from "../../content/labels.json";
 import CurrencyStore from "../../stores/CurrencyStore";
+import { labelsRu } from "../../content/labels.json";
 
 const PriceButton = observer(({ defaultPrice }) => {
   const price =
