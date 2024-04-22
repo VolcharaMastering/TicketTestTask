@@ -1,17 +1,19 @@
 import { observer } from "mobx-react-lite";
 import "./PriceButton.scss";
+import CurrencyStore from "../../stores/CurrencyStore";
 import { labelsRu } from "../../content/labels.json";
 
-const PriceButton = observer(() => {
-  const price = 1000;
-  const currency = labelsRu.currencyRu;
+const PriceButton = observer(({ defaultPrice }) => {
+  const price =
+    Math.round((defaultPrice / CurrencyStore.currencyToShow.rate) * 100) / 100;
+  const currencySymbol = CurrencyStore.currencyToShow.symbol;
   const handleClick = () => {
     alert("You bought it!");
   };
   return (
     <button className="price-button" type="button" onClick={handleClick}>
       <p>{labelsRu.buyRu}</p>
-      <p>{`${labelsRu.forRu} ${price} ${currency}`}</p>
+      <p>{`${labelsRu.forRu} ${price} ${currencySymbol}`}</p>
     </button>
   );
 });

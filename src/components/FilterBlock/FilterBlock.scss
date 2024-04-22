@@ -1,13 +1,13 @@
 @import "../../consts/mixins.scss";
 
 .filter-block {
-    width: 29%;
-    @include to-center_column();
-    @include block-design();
+  width: 29%;
+  @include to-center_column();
+  @include block-design();
 }
 
 .filter-block__label {
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
 }

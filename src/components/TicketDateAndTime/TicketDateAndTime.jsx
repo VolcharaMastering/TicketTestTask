@@ -17,7 +17,7 @@ function TicketDateAndTime({ ticketData }) {
           city={ticketData.origin_name}
           dateToshow={ticketData.departure_date}
         />
-        <div className="ticket-date-and-time__separator"/>
+        <div className="ticket-date-and-time__separator" />
         <FlightPoints
           airport={ticketData.destination}
           city={ticketData.destination_name}

@@ -1,6 +1,6 @@
 import "./CurrencyBlock.scss";
-import { labelsRu } from "../../content/labels";
 import CurrencyButton from "../../UI/CurrencyButton/CurrencyButton";
+import { labelsRu } from "../../content/labels";
 
 function CurrencyBlock() {
   return (
@@ -8,7 +8,7 @@ function CurrencyBlock() {
       <label className="filter-block__label">{labelsRu.currencyRu}</label>
       <div className="currency-block__buttons">
         <CurrencyButton label="RUB" />
-        <CurrencyButton label="USB" />
+        <CurrencyButton label="USD" />
         <CurrencyButton label="EUR" />
       </div>
     </div>
